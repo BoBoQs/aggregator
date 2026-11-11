@@ -14,7 +14,7 @@ env:
 
   # token
   PUSH_TOKEN: ${{ secrets.PUSH_TOKEN }}
-    GH_TOKEN: ${{ secrets.GIST_PAT }}
+  GH_TOKEN: ${{ secrets.GIST_PAT }}
 
   # not check connective
   SKIP_ALIVE_CHECK: ${{ vars.SKIP_ALIVE_CHECK }}
