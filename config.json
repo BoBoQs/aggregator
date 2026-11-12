@@ -1,428 +1,513 @@
 {
-  "sites": [
-    {
-      "name": "pawdroid-free-servers",
-      "enable": true,
-      "subscribe": [
-        "https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub"
-      ],
-      "domain": "",
-      "push_to": [
-        "main"
-      ],
-      "rename": "",
-      "include": "",
-      "exclude": "",
-      "ignore_default_exclude": true,
-      "check_alive": true,
-      "max_rate": 2.5,
-      "count": 1,
-      "coupon": "",
-      "require_tls": false
+ "sites": [
+  {
+   "name": "pawdroid-free-servers",
+   "enable": true,
+   "subscribe": [
+    "https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub"
+   ],
+   "domain": "",
+   "push_to": [
+    "main"
+   ],
+   "rename": "",
+   "include": "",
+   "exclude": "",
+   "ignore_default_exclude": true,
+   "check_alive": true,
+   "max_rate": 2.5,
+   "count": 1,
+   "coupon": "",
+   "require_tls": false
+  },
+  {
+   "name": "peasoft-nomorewalls",
+   "enable": true,
+   "subscribe": [
+    "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.txt"
+   ],
+   "domain": "",
+   "push_to": [
+    "main"
+   ],
+   "rename": "",
+   "include": "",
+   "exclude": "",
+   "ignore_default_exclude": true,
+   "check_alive": true,
+   "max_rate": 2.5,
+   "count": 1,
+   "coupon": "",
+   "require_tls": false
+  },
+  {
+   "name": "mahdibland-aggregator",
+   "enable": true,
+   "subscribe": [
+    "https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/Eternity",
+    "https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/sub_merge.txt"
+   ],
+   "domain": "",
+   "push_to": [
+    "main"
+   ],
+   "rename": "",
+   "include": "",
+   "exclude": "",
+   "ignore_default_exclude": true,
+   "check_alive": true,
+   "max_rate": 2.5,
+   "count": 2,
+   "coupon": "",
+   "require_tls": false
+  },
+  {
+   "name": "freefq-and-mfuu",
+   "enable": true,
+   "subscribe": [
+    "https://raw.githubusercontent.com/freefq/free/master/v2"
+   ],
+   "domain": "",
+   "push_to": [
+    "main"
+   ],
+   "rename": "",
+   "include": "",
+   "exclude": "",
+   "ignore_default_exclude": true,
+   "check_alive": true,
+   "max_rate": 2.5,
+   "count": 2,
+   "coupon": "",
+   "require_tls": false
+  },
+  {
+   "name": "ripaojiedian-freenode",
+   "enable": true,
+   "subscribe": [
+    "https://raw.githubusercontent.com/ripaojiedian/freenode/main/sub"
+   ],
+   "domain": "",
+   "push_to": [
+    "main"
+   ],
+   "rename": "",
+   "include": "",
+   "exclude": "",
+   "ignore_default_exclude": true,
+   "check_alive": true,
+   "max_rate": 2.5,
+   "count": 1,
+   "coupon": "",
+   "require_tls": false
+  },
+  {
+   "name": "ermaozi-get_subscribe",
+   "enable": true,
+   "subscribe": [
+    "https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/v2ray.txt"
+   ],
+   "domain": "",
+   "push_to": [
+    "main"
+   ],
+   "rename": "",
+   "include": "",
+   "exclude": "",
+   "ignore_default_exclude": true,
+   "check_alive": true,
+   "max_rate": 2.5,
+   "count": 1,
+   "coupon": "",
+   "require_tls": false
+  }
+ ],
+ "crawl": {
+  "enable": true,
+  "exclude": "",
+  "max_fails": 5,
+  "include_nodes": true,
+  "persist": {
+   "subscribe": "crawledsubs",
+   "nodes": "crawledproxies"
+  },
+  "task": {
+   "push_to": [
+    "main"
+   ],
+   "check_alive": true
+  },
+  "telegram": {
+   "enable": true,
+   "pages": 5,
+   "exclude": "",
+   "channels": {
+    "vpnfail_v2ray": {
+     "include": "",
+     "exclude": "",
+     "push_to": [
+      "main"
+     ]
     },
-    {
-      "name": "peasoft-nomorewalls",
-      "enable": true,
-      "subscribe": [
-        "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.txt"
-      ],
-      "domain": "",
-      "push_to": [
-        "main"
-      ],
-      "rename": "",
-      "include": "",
-      "exclude": "",
-      "ignore_default_exclude": true,
-      "check_alive": true,
-      "max_rate": 2.5,
-      "count": 1,
-      "coupon": "",
-      "require_tls": false
+    "SSRSUB": {
+     "include": "",
+     "exclude": "",
+     "push_to": [
+      "main"
+     ]
     },
-    {
-      "name": "mahdibland-aggregator",
-      "enable": true,
-      "subscribe": [
-        "https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/Eternity",
-        "https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/sub_merge.txt"
-      ],
-      "domain": "",
-      "push_to": [
-        "main"
-      ],
-      "rename": "",
-      "include": "",
-      "exclude": "",
-      "ignore_default_exclude": true,
-      "check_alive": true,
-      "max_rate": 2.5,
-      "count": 2,
-      "coupon": "",
-      "require_tls": false
+    "outlineOpenKey": {
+     "include": "",
+     "exclude": "",
+     "push_to": [
+      "main"
+     ]
     },
-    {
-      "name": "freefq-and-mfuu",
-      "enable": true,
-      "subscribe": [
-        "https://raw.githubusercontent.com/freefq/free/master/v2"
-      ],
-      "domain": "",
-      "push_to": [
-        "main"
-      ],
-      "rename": "",
-      "include": "",
-      "exclude": "",
-      "ignore_default_exclude": true,
-      "check_alive": true,
-      "max_rate": 2.5,
-      "count": 2,
-      "coupon": "",
-      "require_tls": false
+    "V2rayNG3": {
+     "include": "",
+     "exclude": "",
+     "push_to": [
+      "main"
+     ]
+    },
+    "V2Ray_FreedomIran": {
+     "include": "",
+     "exclude": "",
+     "push_to": [
+      "main"
+     ]
+    },
+    "v2ray_for_free": {
+     "include": "",
+     "exclude": "",
+     "push_to": [
+      "main"
+     ]
+    },
+    "free4allVPN": {
+     "include": "",
+     "exclude": "",
+     "push_to": [
+      "main"
+     ]
+    },
+    "FreeV2rays": {
+     "include": "",
+     "exclude": "",
+     "push_to": [
+      "main"
+     ]
+    },
+    "v2rayNG_VPN": {
+     "include": "",
+     "exclude": "",
+     "push_to": [
+      "main"
+     ]
+    },
+    "Shadowlinkserverr": {
+     "include": "",
+     "exclude": "",
+     "push_to": [
+      "main"
+     ]
+    },
+    "vmess_iran": {
+     "include": "",
+     "exclude": "",
+     "push_to": [
+      "main"
+     ]
+    },
+    "Configforvpn01": {
+     "include": "",
+     "exclude": "",
+     "push_to": [
+      "main"
+     ]
+    },
+    "FreakConfig": {
+     "include": "",
+     "exclude": "",
+     "push_to": [
+      "main"
+     ]
+    },
+    "TUICity": {
+     "include": "",
+     "exclude": "",
+     "push_to": [
+      "main"
+     ]
+    },
+    "Farah_VPN": {
+     "include": "",
+     "exclude": "",
+     "push_to": [
+      "main"
+     ]
+    },
+    "V2All": {
+     "include": "",
+     "exclude": "",
+     "push_to": [
+      "main"
+     ]
     }
-  ],
-  "crawl": {
+   }
+  },
+  "google": {
+   "enable": true,
+   "exclude": "",
+   "limit": 100,
+   "days": 7,
+   "exclude_sites": [],
+   "push_to": [
+    "main"
+   ]
+  },
+  "yandex": {
+   "enable": true,
+   "exclude": "",
+   "days": 3,
+   "pages": 5,
+   "exclude_sites": [],
+   "push_to": [
+    "main"
+   ]
+  },
+  "github": {
+   "enable": true,
+   "pages": 3,
+   "exclude": "",
+   "exclude_repos": [],
+   "push_to": [
+    "main"
+   ]
+  },
+  "twitter": {
+   "enable": false,
+   "users": {}
+  },
+  "repositories": [
+   {
     "enable": true,
+    "username": "barry-far",
+    "repo": "V2ray-config",
+    "commits": 2,
     "exclude": "",
-    "max_fails": 5,
-    "include_nodes": true,
-    "persist": {
-      "subscribe": "crawledsubs",
-      "nodes": "crawledproxies"
-    },
-    "task": {
-      "push_to": [
-        "main"
-      ],
-      "check_alive": true
-    },
-    "telegram": {
-      "enable": true,
-      "pages": 5,
-      "exclude": "",
-      "channels": {
-        "vpnfail_v2ray": {
-          "include": "",
-          "exclude": "",
-          "push_to": [
-            "main"
-          ]
-        },
-        "SSRSUB": {
-          "include": "",
-          "exclude": "",
-          "push_to": [
-            "main"
-          ]
-        },
-        "outlineOpenKey": {
-          "include": "",
-          "exclude": "",
-          "push_to": [
-            "main"
-          ]
-        },
-        "V2rayNG3": {
-          "include": "",
-          "exclude": "",
-          "push_to": [
-            "main"
-          ]
-        },
-        "V2Ray_FreedomIran": {
-          "include": "",
-          "exclude": "",
-          "push_to": [
-            "main"
-          ]
-        },
-        "v2ray_for_free": {
-          "include": "",
-          "exclude": "",
-          "push_to": [
-            "main"
-          ]
-        },
-        "free4allVPN": {
-          "include": "",
-          "exclude": "",
-          "push_to": [
-            "main"
-          ]
-        },
-        "FreeV2rays": {
-          "include": "",
-          "exclude": "",
-          "push_to": [
-            "main"
-          ]
-        },
-        "v2rayNG_VPN": {
-          "include": "",
-          "exclude": "",
-          "push_to": [
-            "main"
-          ]
-        },
-        "Shadowlinkserverr": {
-          "include": "",
-          "exclude": "",
-          "push_to": [
-            "main"
-          ]
-        },
-        "vmess_iran": {
-          "include": "",
-          "exclude": "",
-          "push_to": [
-            "main"
-          ]
-        },
-        "Configforvpn01": {
-          "include": "",
-          "exclude": "",
-          "push_to": [
-            "main"
-          ]
-        },
-        "FreakConfig": {
-          "include": "",
-          "exclude": "",
-          "push_to": [
-            "main"
-          ]
-        },
-        "TUICity": {
-          "include": "",
-          "exclude": "",
-          "push_to": [
-            "main"
-          ]
-        },
-        "Farah_VPN": {
-          "include": "",
-          "exclude": "",
-          "push_to": [
-            "main"
-          ]
-        },
-        "V2All": {
-          "include": "",
-          "exclude": "",
-          "push_to": [
-            "main"
-          ]
-        }
-      }
-    },
-    "google": {
-      "enable": true,
-      "exclude": "",
-      "limit": 100,
-      "days": 7,
-      "exclude_sites": [],
-      "push_to": [
-        "main"
-      ]
-    },
-    "yandex": {
-      "enable": true,
-      "exclude": "",
-      "days": 3,
-      "pages": 5,
-      "exclude_sites": [],
-      "push_to": [
-        "main"
-      ]
-    },
-    "github": {
-      "enable": true,
-      "pages": 3,
-      "exclude": "",
-      "exclude_repos": [],
-      "push_to": [
-        "main"
-      ]
-    },
-    "twitter": {
-      "enable": false,
-      "users": {}
-    },
-    "repositories": [
-      {
-        "enable": true,
-        "username": "barry-far",
-        "repo": "V2ray-config",
-        "commits": 2,
-        "exclude": "",
-        "push_to": [
-          "main"
-        ]
-      },
-      {
-        "enable": true,
-        "username": "mahdibland",
-        "repo": "V2RayAggregator",
-        "commits": 2,
-        "exclude": "",
-        "push_to": [
-          "main"
-        ]
-      },
-      {
-        "enable": true,
-        "username": "peasoft",
-        "repo": "NoMoreWalls",
-        "commits": 2,
-        "exclude": "",
-        "push_to": [
-          "main"
-        ]
-      },
-      {
-        "enable": true,
-        "username": "0xRadikal",
-        "repo": "Free-v2ray-Configs",
-        "commits": 2,
-        "exclude": "",
-        "push_to": [
-          "main"
-        ]
-      }
-    ],
-    "pages": [
-      {
-        "enable": true,
-        "url": "https://raw.githubusercontent.com/barry-far/V2ray-config/main/Sub1.txt",
-        "include": "",
-        "exclude": "",
-        "paged": false,
-        "placeholder": "",
-        "start": 1,
-        "end": 1,
-        "push_to": [
-          "main"
-        ]
-      },
-      {
-        "enable": true,
-        "url": "https://raw.githubusercontent.com/barry-far/V2ray-config/main/Sub2.txt",
-        "include": "",
-        "exclude": "",
-        "paged": false,
-        "placeholder": "",
-        "start": 1,
-        "end": 1,
-        "push_to": [
-          "main"
-        ]
-      },
-      {
-        "enable": true,
-        "url": "https://raw.githubusercontent.com/Mohammadgb0078/IRV2ray/main/vless.txt",
-        "include": "",
-        "exclude": "",
-        "paged": false,
-        "placeholder": "",
-        "start": 1,
-        "end": 1,
-        "push_to": [
-          "main"
-        ]
-      },
-      {
-        "enable": true,
-        "url": "https://raw.githubusercontent.com/Mohammadgb0078/IRV2ray/main/vmess.txt",
-        "include": "",
-        "exclude": "",
-        "paged": false,
-        "placeholder": "",
-        "start": 1,
-        "end": 1,
-        "push_to": [
-          "main"
-        ]
-      },
-      {
-        "enable": true,
-        "url": "https://raw.githubusercontent.com/Kwinshadow/TelegramV2rayCollector/main/sublinks/mix.txt",
-        "include": "",
-        "exclude": "",
-        "paged": false,
-        "placeholder": "",
-        "start": 1,
-        "end": 1,
-        "push_to": [
-          "main"
-        ]
-      }
-    ],
-    "scripts": [
-      {
-        "enable": true,
-        "plugin": "tempairport",
-        "persist": "",
-        "task": {
-          "enable": true,
-          "check_alive": true,
-          "exclude": "",
-          "rename": "",
-          "push_to": [
-            "main"
-          ]
-        },
-        "config": {
-          "push_to": [
-            "main"
-          ]
-        }
-      }
+    "push_to": [
+     "main"
     ]
-  },
-  "groups": {
-    "main": {
-      "emoji": true,
-      "list_only": true,
-      "targets": {
-        "clash": "clash",
-        "singbox": "singbox",
-        "v2ray": "v2ray"
-      }
+   },
+   {
+    "enable": true,
+    "username": "mahdibland",
+    "repo": "V2RayAggregator",
+    "commits": 2,
+    "exclude": "",
+    "push_to": [
+     "main"
+    ]
+   },
+   {
+    "enable": true,
+    "username": "peasoft",
+    "repo": "NoMoreWalls",
+    "commits": 2,
+    "exclude": "",
+    "push_to": [
+     "main"
+    ]
+   },
+   {
+    "enable": true,
+    "username": "0xRadikal",
+    "repo": "Free-v2ray-Configs",
+    "commits": 2,
+    "exclude": "",
+    "push_to": [
+     "main"
+    ]
+   }
+  ],
+  "pages": [
+   {
+    "enable": true,
+    "url": "https://raw.githubusercontent.com/barry-far/V2ray-config/main/Sub1.txt",
+    "include": "",
+    "exclude": "",
+    "paged": false,
+    "placeholder": "",
+    "start": 1,
+    "end": 1,
+    "push_to": [
+     "main"
+    ]
+   },
+   {
+    "enable": true,
+    "url": "https://raw.githubusercontent.com/barry-far/V2ray-config/main/Sub2.txt",
+    "include": "",
+    "exclude": "",
+    "paged": false,
+    "placeholder": "",
+    "start": 1,
+    "end": 1,
+    "push_to": [
+     "main"
+    ]
+   },
+   {
+    "enable": true,
+    "url": "https://raw.githubusercontent.com/Mohammadgb0078/IRV2ray/main/vless.txt",
+    "include": "",
+    "exclude": "",
+    "paged": false,
+    "placeholder": "",
+    "start": 1,
+    "end": 1,
+    "push_to": [
+     "main"
+    ]
+   },
+   {
+    "enable": true,
+    "url": "https://raw.githubusercontent.com/Mohammadgb0078/IRV2ray/main/vmess.txt",
+    "include": "",
+    "exclude": "",
+    "paged": false,
+    "placeholder": "",
+    "start": 1,
+    "end": 1,
+    "push_to": [
+     "main"
+    ]
+   },
+   {
+    "enable": true,
+    "url": "https://raw.githubusercontent.com/Kwinshadow/TelegramV2rayCollector/main/sublinks/mix.txt",
+    "include": "",
+    "exclude": "",
+    "paged": false,
+    "placeholder": "",
+    "start": 1,
+    "end": 1,
+    "push_to": [
+     "main"
+    ]
+   },
+   {
+    "enable": true,
+    "url": "https://raw.githubusercontent.com/barry-far/V2ray-config/main/Sub3.txt",
+    "include": "",
+    "exclude": "",
+    "paged": false,
+    "placeholder": "",
+    "start": 1,
+    "end": 1,
+    "push_to": [
+     "main"
+    ]
+   },
+   {
+    "enable": true,
+    "url": "https://raw.githubusercontent.com/Kwinshadow/TelegramV2rayCollector/main/sublinks/vless.txt",
+    "include": "",
+    "exclude": "",
+    "paged": false,
+    "placeholder": "",
+    "start": 1,
+    "end": 1,
+    "push_to": [
+     "main"
+    ]
+   },
+   {
+    "enable": true,
+    "url": "https://raw.githubusercontent.com/Kwinshadow/TelegramV2rayCollector/main/sublinks/vmess.txt",
+    "include": "",
+    "exclude": "",
+    "paged": false,
+    "placeholder": "",
+    "start": 1,
+    "end": 1,
+    "push_to": [
+     "main"
+    ]
+   }
+  ],
+  "scripts": [
+   {
+    "enable": true,
+    "plugin": "tempairport",
+    "persist": "",
+    "task": {
+     "enable": true,
+     "check_alive": true,
+     "exclude": "",
+     "rename": "",
+     "push_to": [
+      "main"
+     ]
+    },
+    "config": {
+     "push_to": [
+      "main"
+     ]
     }
-  },
-  "storage": {
-    "engine": "gist",
-    "token": "",
-    "base": "",
-    "domain": "",
-    "items": {
-      "clash": {
-        "username": "BoBoQs",
-        "gist_id": "095f6060dc8932ec6ab409cc8f2e1cf5",
-        "filename": "clash.yaml"
-      },
-      "singbox": {
-        "username": "BoBoQs",
-        "gist_id": "095f6060dc8932ec6ab409cc8f2e1cf5",
-        "filename": "singbox.json"
-      },
-      "v2ray": {
-        "username": "BoBoQs",
-        "gist_id": "095f6060dc8932ec6ab409cc8f2e1cf5",
-        "filename": "v2ray.txt"
-      },
-      "crawledsubs": {
-        "username": "BoBoQs",
-        "gist_id": "095f6060dc8932ec6ab409cc8f2e1cf5",
-        "filename": "crawledsubs.json"
-      },
-      "crawledproxies": {
-        "username": "BoBoQs",
-        "gist_id": "095f6060dc8932ec6ab409cc8f2e1cf5",
-        "filename": "crawledproxies.json"
-      }
-    }
-  },
-  "delay": 10000
+   }
+  ]
+ },
+ "groups": {
+  "main": {
+   "emoji": true,
+   "list_only": true,
+   "targets": {
+    "clash": "clash",
+    "singbox": "singbox",
+    "v2ray": "v2ray"
+   },
+   "regularize": {
+    "enable": true,
+    "locate": true,
+    "residential": false,
+    "digits": 2
+   }
+  }
+ },
+ "storage": {
+  "engine": "gist",
+  "token": "",
+  "base": "",
+  "domain": "",
+  "items": {
+   "clash": {
+    "username": "BoBoQs",
+    "gist_id": "095f6060dc8932ec6ab409cc8f2e1cf5",
+    "filename": "clash.yaml"
+   },
+   "singbox": {
+    "username": "BoBoQs",
+    "gist_id": "095f6060dc8932ec6ab409cc8f2e1cf5",
+    "filename": "singbox.json"
+   },
+   "v2ray": {
+    "username": "BoBoQs",
+    "gist_id": "095f6060dc8932ec6ab409cc8f2e1cf5",
+    "filename": "v2ray.txt"
+   },
+   "crawledsubs": {
+    "username": "BoBoQs",
+    "gist_id": "095f6060dc8932ec6ab409cc8f2e1cf5",
+    "filename": "crawledsubs.json"
+   },
+   "crawledproxies": {
+    "username": "BoBoQs",
+    "gist_id": "095f6060dc8932ec6ab409cc8f2e1cf5",
+    "filename": "crawledproxies.json"
+   }
+  }
+ },
+ "delay": 10000
 }
