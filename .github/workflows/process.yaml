@@ -51,5 +51,11 @@ jobs:
       - name: Process
         run: python -u subscribe/process.py --overwrite
 
+      - name: Patch clash groups
+        env:
+          GIST_PAT: ${{ secrets.GIST_PAT }}
+          GIST_ID: 095f6060dc8932ec6ab409cc8f2e1cf5
+        run: python3 .github/scripts/patch_clash_groups.py
+
       - name: Timestamp
         run: date
